@@ -37,11 +37,9 @@
     --background-accent: var(--base0B) !important;
     --background-floating: var(--base02) !important;
     --background-mentioned-hover: var(--base02) !important;
-    --background-mentioned: var(--base01) !important;
     --background-message-highlight: var(--base01) !important;
     --background-modifier-accent: var(--base02) !important;
     --background-modifier-active: var(--base02) !important;
-    --background-modifier-hover: var(--base00) !important;
     --background-modifier-selected: var(--base01) !important;
     --background-primary: var(--base00) !important;
     --background-secondary-alt: var(--base01) !important;
@@ -58,7 +56,6 @@
     --background-mod-subtle: var(--base02) !important;
     --bg-base-secondary: var(--base00) !important;
     --bg-base-tertiary: var(--base00) !important;
-    --bg-brand: var(--base03) !important;
     --bg-mod-faint: var(--base01) !important;
     --bg-overlay-2: var(--base01) !important;
     --bg-overlay-3: var(--base01) !important;
@@ -67,7 +64,6 @@
     --bg-surface-overlay: var(--base00) !important;
     --blurple-50: var(--base0B) !important;
     --border-faint: var(--base02) !important;
-    --brand-10a: var(--base01) !important;
     --brand-15a: var(--base01) !important;
     --brand-260: var(--base0D) !important;
     --brand-360: var(--base0D) !important;
@@ -91,7 +87,7 @@
     --button-secondary-text: var(--base05) !important;
     --card-primary-bg: var(--base02) !important;
     --channel-icon: var(--base04) !important;
-    --channels-default: var(--base04) !important;
+    --channels-default: var(--base03) !important;
     --channel-text-area-placeholder: var(--base03) !important;
     --channeltextarea-background: var(--base01) !important;
     --chat-background-default: var(--base02) !important;
@@ -115,7 +111,7 @@
     --input-background: var(--base02) !important;
     --interactive-active: var(--base05) !important;
     --interactive-hover: var(--base0D) !important;
-    --interactive-muted: var(--base03) !important;
+    --interactive-muted: var(--base0) !important;
     --interactive-normal: var(--base05) !important;
     --mention-background: var(--base02) !important;
     --mention-foreground: var(--base04) !important;
@@ -154,13 +150,13 @@
     --status-negative: var(--base08) !important;
     --status-positive-background: var(--base0B) !important;
     --status-positive-text: var(--base0B) !important;
-    --status-positive: var(--base0B) !important;
+    --status-positive: var(--base0C) !important;
     --status-success: var(--base0B) !important;
     --status-warning-background: var(--base03) !important;
     --status-warning: var(--base09) !important;
     --teal-430: var(--base0C) !important;
     --text-brand: var(--base06) !important;
-    --text-feedback-positive: var(--base0B) !important;
+    --text-feedback-positive: var(--base06) !important;
     --text-feedback-negative: var(--base08) !important;
     --text-feedback-warning: var(--base09) !important;
     --text-feedback-success: var(--base0B) !important;
@@ -451,7 +447,7 @@ svg.guildBoostBadge__5dba5 path {
     }
 .chatContent_f75fb0 {
     background-image: 
-        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
         url(https://raw.githubusercontent.com/riukii/discord-theme/refs/heads/main/backgrounds/Hollow-Knight-Van-Gogh-Forest.png);
     background-size: fill;
     background-position: center;
@@ -597,38 +593,4 @@ svg.guildBoostBadge__5dba5 path {
     font-size: 12px;
     content: "Several people are yapping...";
   }
-}
-
-.title_c38106 {
-  display: none;
-}
-
-.title_f75fb0 {
-  padding: 0px !important;
-  /* scale: 0.9; */
-  padding-left: 12px !important;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  background: transparent !important;
-  height: var(--custom-app-top-bar-height) !important;
-  min-height: 0px;
-  border: none !important;
-  width: calc(100vw);
-}
-
-.followButton_f75fb0,
-.topicClickTarget__6ec1a {
-  -webkit-app-region: no-drag !important;
-}
-
-.base_c48ade:has(.bar_c38106[data-windows="true"]) .title_f75fb0 {
-  width: calc(100vw - 240px)!important;
-}
-
-.children__9293f::after {
-  background: linear-gradient(to right, transparent 0, var(--bg-base-tertiary) 100%)!important;
-}
-.topic__6ec1a {
-  flex: none;
 }
