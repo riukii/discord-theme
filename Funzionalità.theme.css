@@ -1,7 +1,7 @@
 /**
 * @name Funzionalità
 * @author riukii
-* @version 1.0.0
+* @version 1.0.1
 * @description Cose utili che aggiungo
 */
 
@@ -15,9 +15,9 @@
   font-size: 0;
   height: 16px;
   >strong {
-    font-size: 12px;
+    font-size: 15px;
     &::after {
-      color: var(--text-secondary);
+      color: white;
       font-weight: 500;
     }
     &:last-child::after {
@@ -34,6 +34,6 @@
     }
   }
   &:not(:has(>strong))::after {
-    font-size: 12px;
+    font-size: 15px;
     content: "Several people are yapping...";
   }
