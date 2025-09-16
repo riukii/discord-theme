@@ -1,0 +1,19 @@
+/**
+* @name Bigodini
+* @author bigodino
+* @version 1.0.0
+* @description Tema fatto per bigodina :3
+*/
+
+:root {
+	--bianco: #dedef4;
+	--nero: #000000;
+}
+
+.border__2f4f7.speaking__2f4f7 {
+	--green-360: var(--bianco);
+}
+
+.rtcConnectionStatusConnected__06d62.rtcConnectionStatusLabel__06d62.hoverableStatus_cdcd10.hoverRoll__0263c {
+	color: var(--bianco);
+}
