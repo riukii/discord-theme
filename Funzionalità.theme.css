@@ -1,0 +1,39 @@
+/**
+* @name Funzionalità
+* @author riukii
+* @version 1.0.0
+* @description Cose utili che aggiungo
+*/
+
+.channel__972a0.container_e45859:has([data-list-item-id$="___nitro"]),
+.channel__972a0.container_e45859:has([data-list-item-id$="___shop"]),
+.containerDefault_c69b6d.wrapper__2ea32.container__877f0:has([data-list-item-id="channels___skill-trees-1271208155275071588"]) {
+	display: none;
+}
+
+.typingDots_b88801 > .ellipsis_b88801+.text_b88801 {
+  font-size: 0;
+  height: 16px;
+  >strong {
+    font-size: 12px;
+    &::after {
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+    &:last-child::after {
+      content: " is yapping...";
+    }
+    &:last-child:not(:first-child)::after {
+      content: " are yapping...";
+    }
+    &:nth-last-child(2)::after {
+      content: " and "
+    }
+    &:nth-last-child(3)::after {
+      content: ", ";
+    }
+  }
+  &:not(:has(>strong))::after {
+    font-size: 12px;
+    content: "Several people are yapping...";
+  }
