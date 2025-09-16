@@ -1,7 +1,7 @@
 /**
 * @name Bigodini
 * @author bigodino
-* @version 1.0.1
+* @version 1.0.2
 * @description Tema fatto per pinolina :3
 */
 
@@ -24,4 +24,10 @@
 
 .ping__06d62.largePing__06d62 {
 	--status-positive: var(--bianco);
+}
+
+.channel__972a0.container_e45859:has([data-list-item-id$="___nitro"]),
+.channel__972a0.container_e45859:has([data-list-item-id$="___shop"]),
+.containerDefault_c69b6d.wrapper__2ea32.container__877f0:has([data-list-item-id="channels___skill-trees-1271208155275071588"]) {
+	display: none;
 }
