@@ -745,10 +745,6 @@ rect[mask="url(#svg-mask-status-idle)"] {
     color: var(--overlay) !important;
 }
 
-button[aria-label="Disconnect"] .lottieIcon__5eb9b svg path {
-    fill: var(--love) !important;
-}
-
 button[aria-label="Noise Suppression powered by Krisp"] .lottieIcon__5eb9b svg path {
     fill: var(--subtle) !important;
 }
@@ -1076,7 +1072,8 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 /* ---------------------------- Dialogues ---------------------------- */
 
 .flex__7c0ba.horizontal__7c0ba.justifyCenter_abf706.alignCenter_abf706.noWrap_abf706.videoGridWrapper_a21736,
-.root_c8dbe9.voiceCallWrapper_a21736 {
+.root_c8dbe9.voiceCallWrapper_a21736,
+.root__6981d.flexCenter_a21736 {
 	background-image: 
 		linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
         var(--sfondo);
