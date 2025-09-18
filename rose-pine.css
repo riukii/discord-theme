@@ -2031,6 +2031,7 @@ Collapsible Search Bar
 }
 
 
+/* Restore transparent background when opening images */
 .carouselModal_d3a6f0.theme-dark.theme-midnight.images-dark.root__49fc1 {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
