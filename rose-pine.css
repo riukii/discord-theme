@@ -2009,6 +2009,33 @@ Collapsible Search Bar
     display: block !important;
 }
 
+
+
+
+
+/* 
+===========================
+        Fixes 
+===========================
+*/
+
+/* Remove gaps from fullscreen */
+.layer__960e4.baseLayer__960e4:has(.base_c48ade[data-fullscreen="true"]) {
+	--gap: 0px;
+	top: -54px;
+}
+
+/* Move unread bar to the bottom */
 .unreadBottom__629e4.unread__629e4.container__3b95d {
-	transform: translateY(160px)
+  bottom: 0;
+}
+
+
+.carouselModal_d3a6f0.theme-dark.theme-midnight.images-dark.root__49fc1 {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.bar_c38106.systemBar_c38106.fixed_c38106.show_c38106 {
+	background-color: rgba(0, 0, 0, 0) !important;
+	border-bottom-color: rgba(0, 0, 0, 0) !important;
 }
