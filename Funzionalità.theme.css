@@ -5,12 +5,20 @@
 * @description Cose utili che aggiungo
 */
 
+/* Remove useless buttons */
 .channel__972a0.container_e45859:has([data-list-item-id$="___nitro"]),
 .channel__972a0.container_e45859:has([data-list-item-id$="___shop"]),
 .containerDefault_c69b6d.wrapper__2ea32.container__877f0:has([data-list-item-id="channels___skill-trees-1271208155275071588"]) {
 	display: none;
 }
 
+/* Make "Voice Connected" bigger because of plugin CallTimer not fully visible */
+.flex__7c0ba.horizontal__7c0ba.justifyStart_abf706.alignCenter_abf706.noWrap_abf706.connection_e131a9,
+.rtcConnectionStatusWrapper__06d62 .rtcConnectionStatus__06d62 {
+  height: 48px !important;
+}
+
+/* Is Yapping... */
 .typingDots_b88801 > .ellipsis_b88801+.text_b88801 {
   font-size: 0;
   height: 16px;
