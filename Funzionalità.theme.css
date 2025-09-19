@@ -12,12 +12,6 @@
 	display: none;
 }
 
-/* Make "Voice Connected" bigger because of plugin CallTimer not fully visible */
-.flex__7c0ba.horizontal__7c0ba.justifyStart_abf706.alignCenter_abf706.noWrap_abf706.connection_e131a9,
-.rtcConnectionStatusWrapper__06d62 .rtcConnectionStatus__06d62 {
-  height: 48px !important;
-}
-
 /* Is Yapping... */
 .typingDots_b88801 > .ellipsis_b88801+.text_b88801 {
   font-size: 0;

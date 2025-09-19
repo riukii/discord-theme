@@ -2030,13 +2030,17 @@ Collapsible Search Bar
   bottom: 0;
 }
 
-
 /* Restore transparent background when opening images */
 .carouselModal_d3a6f0.theme-dark.theme-midnight.images-dark.root__49fc1 {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
-
 .bar_c38106.systemBar_c38106.fixed_c38106.show_c38106 {
 	background-color: rgba(0, 0, 0, 0) !important;
 	border-bottom-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* Make "Voice Connected" bigger because of plugin CallTimer not fully visible */
+.flex__7c0ba.horizontal__7c0ba.justifyStart_abf706.alignCenter_abf706.noWrap_abf706.connection_e131a9,
+.rtcConnectionStatusWrapper__06d62 .rtcConnectionStatus__06d62 {
+  height: 48px !important;
 }
