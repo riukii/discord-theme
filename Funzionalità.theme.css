@@ -1,14 +1,15 @@
 /**
 * @name Funzionalità
 * @author riukii
-* @version 1.0.1
+* @version 1.0.2
 * @description Cose utili che aggiungo
 */
 
 /* Remove useless buttons */
 .channel__972a0.container_e45859:has([data-list-item-id$="___nitro"]),
 .channel__972a0.container_e45859:has([data-list-item-id$="___shop"]),
-.containerDefault_c69b6d.wrapper__2ea32.container__877f0:has([data-list-item-id="channels___skill-trees-1271208155275071588"]) {
+.containerDefault_c69b6d.wrapper__2ea32.container__877f0:has([data-list-item-id="channels___skill-trees-1271208155275071588"]),
+.container_a62383.nitro-pink_a62383.popoverGradientWrapper_d6f39b {
 	display: none;
 }
 
@@ -39,3 +40,4 @@
     font-size: 15px;
     content: "Several people are yapping...";
   }
+
