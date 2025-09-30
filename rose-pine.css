@@ -8,7 +8,6 @@
 /* 
 CONFIGURATION 📝‼️
 */
-
 @font-face {
     font-family: "Trakya-Ataraxia";
     src: url("https://raw.githubusercontent.com/riukii/fonts/main/fonts/Trakya-Ataraxia/Trakya-Ataraxia.ttf") format("truetype");
@@ -37,6 +36,7 @@ CONFIGURATION 📝‼️
     --highlightHigh: #524f67;
 	
 	/* --font-primary: "Trakya-Ataraxia"; */
+	--font-primary: "Trakya-Ataraxia";
     --font-display: var(--font-primary);
 	
 	--sfondo: url("https://raw.githubusercontent.com/riukii/discord-themes/refs/heads/main/backgrounds/hollow%20knight%20e%20hornet%20panchina.jpg");
@@ -2043,4 +2043,13 @@ Collapsible Search Bar
 .flex__7c0ba.horizontal__7c0ba.justifyStart_abf706.alignCenter_abf706.noWrap_abf706.connection_e131a9,
 .rtcConnectionStatusWrapper__06d62 .rtcConnectionStatus__06d62 {
   height: 48px !important;
+}
+
+/* Give purple color to some squares not properly colored */
+.scroller__53543.thin_d125d2.scrollerBase_d125d2.fade_d125d2, /* Roles column in the manage permission window of chats/vocs */
+.header_c6bf1b.stickyHeader_c6bf1b, /* Around role name in the managing roles settings */
+.titleContainer_e29cd7, /* Around "back" button in the managing roles settings */
+.headerContainer__7db08 /* Around "server order" in the "activity privacy" settings */
+{
+	background-color: var(--overlay);
 }
